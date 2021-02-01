@@ -5,3 +5,11 @@ header {
 header h1 {
     color: white;
 }
+
+body {
+    height: 100vh;
+    background-image: url("media/logo-background.svg");
+    background-size: 70px;
+    background-repeat: repeat;
+    background-color: black;
+}

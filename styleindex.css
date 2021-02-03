@@ -14,7 +14,7 @@ body {
     background-color: black;
 }
 
-#footer li{
-	display:inline;
-	margin:30px;
+footer{
+	background-color: blue;
+	border:1px solid black;
 }

@@ -1,5 +1,6 @@
-header {
-    background-color: #0000ff;
+header,
+.navbar {
+    background-color: #1a1a1a;
 }
 
 header h1 {
@@ -8,12 +9,17 @@ header h1 {
 
 body {
     height: 100vh;
-    background-image: url("media/logo-background.svg");
-    background-size: 70px;
-    background-repeat: repeat;
-    background-color: black;
+    background-color: #383838;
 }
 
+.form-container {
+    background-color: #D40000;
+    color: white;
+}
+
+#main {
+    background-color: #c1c1c1;
+}
 footer{
 	background-color: blue;
 	border:1px solid black;

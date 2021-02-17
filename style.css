@@ -19,4 +19,13 @@ body {
 
 #main {
     background-color: #c1c1c1;
+    padding: 1.5em;
+}
+
+#landing-main {
+    background-color: #c1c1c1;
+}
+
+article {
+    margin: 0.5em auto;
 }

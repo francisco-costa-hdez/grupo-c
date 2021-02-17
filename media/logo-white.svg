@@ -13,7 +13,7 @@
    version="1.1"
    id="svg1492"
    inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)"
-   sodipodi:docname="logo-noticias.svg">
+   sodipodi:docname="logo-white.svg">
   <defs
      id="defs1486" />
   <sodipodi:namedview
@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.67114696"
-     inkscape:cx="603.36549"
-     inkscape:cy="580.49312"
+     inkscape:zoom="0.47457256"
+     inkscape:cx="581.58438"
+     inkscape:cy="405.15908"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -53,6 +53,12 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <circle
+       style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:4.18337;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3196"
+       cx="131.8533"
+       cy="132.4108"
+       r="132.35876" />
     <path
        style="fill:#d40000;fill-opacity:1;stroke:#000000;stroke-width:4.03589;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 129.74572,91.537709 7.61124,-51.659882 H 53.63293 l -41.10091,55.103868 -1.522255,65.435915 36.534154,39.60589 77.635031,-3.44402 30.44508,-41.32785 6.08902,-58.547954 -85.246278,12.054004 v 30.99598 l 28.922818,3.44398 -3.04451,10.33199 H 74.944494 L 59.721935,131.14364 68.855491,98.425669 Z"
@@ -64,6 +70,10 @@
        id="path860-90-8-8"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccc" />
+    <path
+       style="fill:#aa0000;fill-opacity:1;stroke:#000000;stroke-width:4.0326;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 1.4515612,210.45368 C 150.95691,177.75704 248.56146,199.04723 248.56146,199.04723 l 14.71816,26.60597 c 0,0 -59.64718,-38.77644 -261.8280588,-15.19952 z"
+       id="path1014-0-4-4" />
     <path
        style="fill:#1a1a1a;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 235.84249,132.01557 -40.86599,83.64969 -27.15098,-34.85401 v 0"
@@ -79,22 +89,5 @@
          x="148.60187"
          y="73.23185"
          style="stroke-width:0.264583" /></text>
-    <path
-       style="fill:#000000;stroke:#000000;stroke-width:0.211094px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 6.7256178,211.85762 H 210.24713 l 35.51549,-27.689 H 50.553266 36.692324 c -10.021499,9.20605 -19.984439,18.45552 -29.9667062,27.689 z"
-       id="path844"
-       sodipodi:nodetypes="cccccc" />
-    <text
-       xml:space="preserve"
-       style="font-size:32.4571px;line-height:1.25;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';letter-spacing:0px;fill:#ffffff;stroke-width:0.225396"
-       x="25.266512"
-       y="386.12769"
-       id="text848"
-       transform="scale(1.8873562,0.52984169)"><tspan
-         sodipodi:role="line"
-         id="tspan846"
-         x="25.266512"
-         y="386.12769"
-         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold Italic';fill:#ffffff;stroke-width:0.225396">NEWS</tspan></text>
   </g>
 </svg>

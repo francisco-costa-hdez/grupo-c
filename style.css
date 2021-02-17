@@ -30,6 +30,26 @@ body {
     color: white;
 }
 
+.form-container a {
+    color: #1a1a1a;
+}
+
+.form-container a:visited {
+    color: #383838;
+}
+
+.form-container a:focus {
+    color: #c1c1c1;
+}
+
+.form-container a:hover {
+    color: #c1c1c1;
+}
+
+.form-container a:active {
+    color: white;
+}
+
 #main {
     background-color: #c1c1c1;
     padding: 1.5em;
@@ -53,6 +73,17 @@ article {
 }
 
 .c-index {
-    width: 20rem;
     border: none;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #1a1a1a;
+    background-color: green;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #1a1a1a;
+    background-color: rgb(0, 166, 255);
 }

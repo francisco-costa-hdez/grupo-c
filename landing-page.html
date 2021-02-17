@@ -31,7 +31,7 @@
 <body>
     <header class='container-fluid'>
         <nav class="navbar navbar-expand-md navbar-dark">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand header-h1" href="index.html">
                 <img src="media/logo-white.svg" width="40" height="40" class="d-inline-block align-top" alt=""> Games Are Welcome
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,16 +40,16 @@
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="/noticias.html">Noticias</a>
+                        <a class="nav-link" href="./noticias.html">Noticias</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/gameplay.html">Gameplay</a>
+                        <a class="nav-link" href="./gameplay.html">Gameplay</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/podcast.html">Podcast</a>
+                        <a class="nav-link" href="./podcast.html">Podcast</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/tienda.html">Tienda</a>
+                        <a class="nav-link" href="./tienda.html">Tienda</a>
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-md-0">
@@ -120,6 +120,7 @@
                 <div class="col-md-5 form-container">
                     <form>
                         <h2>¡Regístrate ahora!</h2>
+                        <p><small>(*)Campo Obligatorio</small></p>
                         <p>Todo este contenido, nuestras ofertas y mucho más en <strong>Games Are Welcome</strong>. <em>Players Are Welcome</em></p>
                         <div class="form-group">
                             <label for="FormControlInput3">Nick *</label>
@@ -128,19 +129,33 @@
                             <input type="email" class="form-control" id="FormControlInput1" placeholder="name@example.com">
                             <label for="FormControlInput2">Contraseña *</label>
                             <input type="password" class="form-control" id="FormControlInput2">
-                            <label for="FormControlSelect">Contenido Preferente</label>
-                            <select multiple class="form-control" id="FormControlSelect2">
-                            <option>Noticias</option>
-                            <option>Gameplays</option>
-                            <option>Podcasts</option>
-                            <option>Tienda</option>
-                      </select>
+                            <label>Contenido Preferente</label>
+                            <div style="margin-left: 1em;">
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" id="rd_1" name="rd" class="custom-control-input green" value="Noticias">
+                                    <label class="custom-control-label" for="rd_1">Noticias</label>
+                                </div>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" id="rd_2" name="rd" class="custom-control-input red" value="Gameplays">
+                                    <label class="custom-control-label" for="rd_2">Gameplays</label>
+                                </div>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" id="rd_3" name="rd" class="custom-control-input red" value="Podcasts">
+                                    <label class="custom-control-label" for="rd_2">Podcasts</label>
+                                </div>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" id="rd_4" name="rd" class="custom-control-input red" value="Tienda">
+                                    <label class="custom-control-label" for="rd_4">Tienda</label>
+                                </div>
+                            </div>
+                            <br>
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                                 <label class="form-check-label" for="defaultCheck1">
                           Acepta nuestras <a href="#">condiciones</a> y <a href="#">políticas de privacidad</a>
                         </label>
-                                <button type="submit" class="btn btn-primary">Registro</button>
+                                <p></p>
+                                <button type="submit" class="btn btn-secondary" style="width: 100%;">Registro</button>
                             </div>
                     </form>
                     </div>

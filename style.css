@@ -94,3 +94,8 @@ article {
     background-color: rgb(0, 166, 255);
 }
 
+#listaCarro{
+  /*list-style-type: none;*/
+  font-weight: bold;  
+}
+

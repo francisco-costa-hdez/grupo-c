@@ -63,25 +63,28 @@
         <section class='container-xl'>
             <div id="main">
                 <h2>Tienda</h2>
-                 <div style="height:100px; position:sticky;top:8em;z-index:100;">
+                 <div style="height:50px; position:sticky;top:8em;z-index:100;">
         
-                <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                En carrito
-                </button>
-                <div class="collapse" id="collapseExample">
-                <div class="card card-body">
+                <div  type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                <img src="media/carrito.png">
+                
+                </div>
+                <div class="collapse" id="collapseExample" style="border-radius: 30px;">
+                <div style="border:3px solid gray;background-color: lightgrey;width:15em;border-radius: 30px;">
                 <ul id="listaCarro">
                 </ul>
+                <button style="margin-left:2.5em;" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right" data-content="Debe iniciar sesión">Realizar compra</button>
                 </div>
                 </div>
                 </div>
+
                 <article class="row row-cols-1 row-cols-md-2">
                 <div class=" col ">
                     <div class="card c-index " style="margin-bottom: 1em; ">
                         <img class="card-img-top " src="media/GWBienve.jpg" alt="Card image cap ">
                         <div class="card-body">
                                <h5 id="tituloBienve"class="card-title" style="text-align:center;">Sudadera Games Are Welcome</h5>
-                               <p class="card-text">9.99€</p>
+                               <p class="card-text" id="precioBienve">9.99€</p>
                                <button type="button" id="BienveBoton" class="btn btn-secondary" style="width:200px">Añadir al carrito
                                </button>
                         </div>
@@ -92,7 +95,7 @@
                         <img class="card-img-top " src="media/GWPaco.png" alt="Card image cap ">
                         <div class="card-body">
                          <h5 id="tituloPaco" class="card-title" style="text-align:center;">Camiseta Games Are Welcome</h5>
-                        <p class="card-text">4.99€</p>
+                        <p class="card-text" id="precioPaco">4.99€</p>
                         <button type="button" id="PacoBoton" class="btn btn-secondary" style="width:200px">Añadir al carrito</button>
                         </div>
                     </div>

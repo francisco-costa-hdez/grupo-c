@@ -31,8 +31,8 @@
 <body>
     <header class='container-fluid'>
         <nav class="navbar navbar-expand-md navbar-dark">
-            <a class="navbar-brand" href="index.html">
-                <img src="media/logo.svg" width="40" height="40" class="d-inline-block align-top" alt=""> Games Are Welcome
+            <a class="navbar-brand header-h1" href="index.html">
+                <img src="media/logo-podcast.svg" width="40" height="40" class="d-inline-block align-top" alt=""> Games Are Welcome
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -40,20 +40,20 @@
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Noticias</a>
+                        <a class="nav-link" href="./noticias.html">Noticias</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Gameplay</a>
+                        <a class="nav-link" href="./gameplay.html">Gameplay</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./podcast.html">Podcast</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Podcast</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Tienda</a>
+                        <a class="nav-link" href="./tienda.html">Tienda</a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-md-0">
-                    <input class="form-control" type="text" placeholder="Search">
+                <form method="get" action="landing-page.html" class="form-inline my-2 my-md-0">
+                <button type="submit" class="btn btn-secondary" style="width:200px">Iniciar Sesión</button>
                 </form>
             </div>
         </nav>
@@ -65,17 +65,32 @@
                 <p>¡Disfruta de nuestras emisiones en modo radio desde el minuto uno!</p>
                 <article class="row">
                     <div class=" col-md-7 ">
-                        <h3>50 sombras de Bienve</h3>
-                        <p>La actualidad con tu delegado favorito</p>
+                        <h3>Actualidad en 2 minutos
+                            <br>
+                            <small><em>con Bienvenido Carbonell y Paco Costa</em></small>
+                        </h3>
+                        <p>La actualidad del sector, rápida y concisa.</p>
                     </div>
                     <div class="col-md-5 ">
-                        <div style="height: 100px; width: 400px; background-color: black "></div>
+                        <div>
+                            <audio controls>
+                                <source src="media/audio/actualidad-en-2-min.ogg" type="audio/ogg">
+                                <source src="media/audio/actualidad-en-2-min.mp3" type="audio/mpeg">
+                                    <p>Tu navegador no implementa el elemento audio <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-emoji-frown" viewBox="0 0 16 16">
+                                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                        <path d="M4.285 12.433a.5.5 0 0 0 .683-.183A3.498 3.498 0 0 1 8 10.5c1.295 0 2.426.703 3.032 1.75a.5.5 0 0 0 .866-.5A4.498 4.498 0 0 0 8 9.5a4.5 4.5 0 0 0-3.898 2.25.5.5 0 0 0 .183.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
+                                      </svg></p>
+                                </audio>
+                            <p><small>Base musical por: <a href="https://creativecommons.org/licenses/by-nc/4.0/">Kevin MacLeod</a></small></p>
+                        </div>
                     </div>
                 </article>
                 <article class="row">
                     <div class=" col-md-7 ">
-                        <h3>La cacharrería</h3>
-                        <p>Otro podcast no se que poner, mira mamá salgo en la tele, he secuestrado un panda lituano.</p>
+                        <h3>Pantalla Paronámica
+                            <br>
+                            <small><em>con Víctor Aranda  y Ana Cruz</em></small></h3>
+                        <p>La competición en su estado más puro. En este podcast repasamos la actualidad deportiva del sector.</p>
                     </div>
                     <div class="col-md-5 ">
                         <div style="height: 100px; width: 400px; background-color: black "></div>

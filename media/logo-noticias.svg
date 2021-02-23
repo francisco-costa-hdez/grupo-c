@@ -23,20 +23,20 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="453.63395"
-     inkscape:cy="546.3315"
+     inkscape:zoom="0.67114696"
+     inkscape:cx="603.36549"
+     inkscape:cy="580.49312"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
      units="px"
      width="1000mm"
-     inkscape:window-width="958"
-     inkscape:window-height="1008"
-     inkscape:window-x="-7"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0" />
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata1489">
     <rdf:RDF>
@@ -45,7 +45,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -65,10 +65,6 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccc" />
     <path
-       style="fill:#aa0000;fill-opacity:1;stroke:#000000;stroke-width:4.0326;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 1.4515612,210.45368 C 150.95691,177.75704 248.56146,199.04723 248.56146,199.04723 l 14.71816,26.60597 c 0,0 -59.64718,-38.77644 -261.8280588,-15.19952 z"
-       id="path1014-0-4-4" />
-    <path
        style="fill:#1a1a1a;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 235.84249,132.01557 -40.86599,83.64969 -27.15098,-34.85401 v 0"
        id="path4059" />
@@ -83,16 +79,22 @@
          x="148.60187"
          y="73.23185"
          style="stroke-width:0.264583" /></text>
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.211094px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 6.7256178,211.85762 H 210.24713 l 35.51549,-27.689 H 50.553266 36.692324 c -10.021499,9.20605 -19.984439,18.45552 -29.9667062,27.689 z"
+       id="path844"
+       sodipodi:nodetypes="cccccc" />
     <text
        xml:space="preserve"
-       style="font-size:38.1px;line-height:1.25;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';letter-spacing:0px;stroke-width:1.50000004;stroke-miterlimit:4;stroke-dasharray:0.75000002,0.75000002;stroke-dashoffset:0"
-       x="25.123335"
-       y="127.75483"
-       id="text5399"><tspan
+       style="font-size:32.4571px;line-height:1.25;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';letter-spacing:0px;fill:#ffffff;stroke-width:0.225396"
+       x="25.266512"
+       y="386.12769"
+       id="text848"
+       transform="scale(1.8873562,0.52984169)"><tspan
          sodipodi:role="line"
-         id="tspan5397"
-         x="25.123335"
-         y="127.75483"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';fill:#ff00ff;stroke:#00ff00;stroke-width:1.50000004;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.75000002,0.75000002;stroke-dashoffset:0">NOTICIAS</tspan></text>
+         id="tspan846"
+         x="25.266512"
+         y="386.12769"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold Italic';fill:#ffffff;stroke-width:0.225396">NEWS</tspan></text>
   </g>
 </svg>

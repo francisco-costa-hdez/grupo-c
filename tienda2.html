@@ -62,30 +62,42 @@
         <section class='container-xl'>
             <div id="main">
                 <h2>Tienda</h2>
-                <article class="row">
-                    <div class=" col-md-6 ">
-                        <div class="card" style="width: 25rem; margin:22px;display:flex;border:5px solid grey;">
-                            <img class="card-img-top" src="media/GWBienve.jpg" alt="Card image cap" width="50 px">
-                            <div class="card-body">
-                                <h5 class="card-title" style="text-align:center;">Camiseta Victor</h5>
-                                <p class="card-text">9.99€</p>
-                                <a href="#" class="btn btn-secondary" style="background-color: #1a1a1a;margin-left:110px">Comprar producto</a>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-md-6 ">
-<!-- <<<<<<< HEAD -->
-                          <div class="card" style="width: 25rem; margin:22px;display:flex;border:5px solid grey;">
-                        <img class="card-img-top" src="media/GWPaco.png" alt="Card image cap">
+                 <div style="height:100px; position:sticky;top:8em;z-index:100;">
+        
+                <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                En carrito
+                </button>
+                <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                <ul id="listaCarro">
+                </ul>
+                </div>
+                </div>
+                </div>
+                <article class="row row-cols-1 row-cols-md-2">
+                <div class=" col ">
+                    <div class="card c-index " style="margin-bottom: 1em; ">
+                        <img class="card-img-top " src="media/GWBienve.jpg" alt="Card image cap ">
                         <div class="card-body">
-                        <h5 class="card-title" style="text-align:center;">Camiseta Ana</h5>
-                        <p class="card-text">4.99€</p>
-                        <a href="#" class="btn btn-secondary" style="background-color: #1a1a1a;margin-left:110px">Comprar producto</a>
+                               <h5 id="tituloBienve"class="card-title" style="text-align:center;">Camiseta Victor</h5>
+                               <p class="card-text">9.99€</p>
+                               <button type="button" id="BienveBoton" class="btn btn-secondary" style="width:200px">Añadir al carrito
+                               </button>
                         </div>
-<!-- ======= -->
-                        
                     </div>
+                </div>
+                <div class="col ">
+                    <div class="card c-index " style="margin-bottom: 1em; ">
+                        <img class="card-img-top " src="media/GWPaco.png" alt="Card image cap ">
+                        <div class="card-body">
+                         <h5 id="tituloPaco" class="card-title" style="text-align:center;">Camiseta Ana</h5>
+                        <p class="card-text">4.99€</p>
+                        <button type="button" id="PacoBoton" class="btn btn-secondary" style="width:200px">Añadir al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            
+                   
                 </article>
                 <nav aria-label="Page navigation example">
                     <ul class="pagination">
@@ -98,27 +110,16 @@
             </div>
         </section>
     </section>
-    <footer style="background-color: lightgrey; ">
+   <footer style="background-color: lightgrey; ">
         <!-- Grid container -->
         <div class="container p-4 ">
             <!--Grid row-->
             <div class="row ">
                 <!--Grid column-->
                 <!--Grid column-->
-                <div class="col-lg-3 col-md-6 mb-4 mb-md-0 ">
-
-                    <ul class="list-unstyled ">
-                        <li>
-                            <a href="#! " class="text-dark ">Noticia mejor valorada</a>
-                        </li>
-                        <li>
-                            <a href="#! " class="text-dark ">Noticia de la semana</a>
-                        </li>
-                    </ul>
-                </div>
                 <!--Grid column-->
                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0 ">
-
+                <h5>Entretenimiento</h5>
                     <ul class="list-unstyled ">
                         <li>
                             <a href="https://gamesarewelcome.000webhostapp.com/media/audio/actualidad-en-2-min.ogg" class="text-dark ">Podcast de la semana</a>
@@ -135,7 +136,7 @@
 
                 <!--Grid column-->
                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0 ">
-
+                <h5>Shopping</h5>
                     <ul class="list-unstyled mb-0 ">
                         <li>
                             <a href="https://gamesarewelcome.000webhostapp.com/tienda.html" class="text-dark ">GaW Shop</a>
@@ -145,12 +146,25 @@
                         </li>
                     </ul>
                 </div>
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0 ">
+                <h5>GAW</h5>
+                    <ul class="list-unstyled mb-0 ">
+
+                        <li>
+                            <a href="https://gamesarewelcome.000webhostapp.com/tienda.html" class="text-dark ">Quiénes somos</a>
+                        </li>
+                        <li>
+                            <a href="#inicio" class="text-dark ">Nuestra marca</a>
+                        </li>
+                    </ul>
+                </div>
                 <!--Grid column-->
                 <div class="col-lg-3 col-md-6 mb-4 mb-md-0 ">
 
                     <ul class="list-unstyled ">
                         <li>
-                            Contacto
+                            <h5>Contacto</h5>
                         </li>
 
                         <li>

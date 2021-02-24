@@ -32,12 +32,13 @@ body {
 }
 
 .form-container {
-    background-color: #D40000;
-    color: white;
+    background-color: #c1c1c1;
+    border-left: 0.2em solid black;
 }
 
 .form-container a {
-    color: #1a1a1a;
+    color: #D40000;
+    ;
 }
 
 .form-container a:visited {
@@ -62,7 +63,7 @@ body {
 }
 
 #landing-main {
-    background-color: #c1c1c1;
+    background-color: #cacaca;
 }
 
 article {
@@ -112,3 +113,6 @@ article {
 .carousel-control-prev-icon {
     filter: invert(1);
 }
+
+
+/*#D40000;*/

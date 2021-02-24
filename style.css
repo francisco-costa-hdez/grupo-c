@@ -94,8 +94,21 @@ article {
     background-color: rgb(0, 166, 255);
 }
 
-#listaCarro{
-  /*list-style-type: none;*/
-  font-weight: bold;  
+#listaCarro {
+    /*list-style-type: none;*/
+    font-weight: bold;
 }
 
+.carousel .carousel-indicators li {
+    background-color: #fff;
+    background-color: rgba(70, 70, 70, 0.25);
+}
+
+.carousel .carousel-indicators .active {
+    background-color: #444;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    filter: invert(1);
+}

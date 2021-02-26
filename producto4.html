@@ -53,15 +53,25 @@
                         <a class="nav-link" href="./tienda.html">Tienda</a>
                     </li>
                 </ul>
-                <form method="get" action="landing-page.html" class="form-inline my-2 my-md-0">
+                <form method="get" action="./login.html" class="form-inline my-2 my-md-0">
                     <button type="submit" class="btn btn-secondary" style="width:200px">Iniciar Sesión</button>
                 </form>
+            </div>
+            <div style="display: inline;">
+                <button class="btn" type="button" style="background-color: #d40000; margin-left: 0.5em;" data-toggle="collapse" data-target="#collapseDiv" aria-expanded="false" aria-controls="collapseDiv">
+                <img src="./media/carrito.png">
+                </button>
             </div>
         </nav>
     </header>
     <section class="container-fluid">
         <section class='container-xl'>
             <div id="main">
+                <div class="collapse" id="collapseDiv" style="margin-bottom: 1em;">
+                    <ul id="listaCarro" class="list-group">
+                        <li class="list-group-item"><button style="width:100%;" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right" data-content="Debe iniciar sesión">Realizar compra</button></li>
+                    </ul>
+                </div>
                 <h2>Tienda</h2>
                 <a title="Volver atrás" href="tienda2.html"><img src="media/flecha.png" alt="Volver atrás" /></a>
                 <article class="row row-cols-1 row-cols-md-2">
@@ -69,12 +79,13 @@
                         <div class="card c-index " style="margin-bottom: 1em;margin-left: auto;margin-right: auto;">
                             <img class="card-img-top " src="media/GWAna.png" alt="Camiseta GamesAreWelcome Blanca">
                             <div class="card-body">
-                                <h5 id="tituloBienve" class="card-title" style="text-align:center;">Camiseta Games Are Welcome</h5>
-                                <p class="card-text" id="precioBienve" style="text-align:center;">Precio: 7.99€</p>
-                                <p class="card-text" style="text-align:center;">Tallas: XL, XS, S, M</p>
+                                <h5 id="tituloBienve" class="card-title" style="text-align:center;">Camiseta Blanca Games Are Welcome - Logo M</h5>
+                                <p class="card-text" id="precioBienve" style="text-align:center;">Precio: 6.99€</p>
+                                <p class="card-text" style="text-align:center;">Tallas: XS, S, M, L, XL</p>
                                 <p class="card-text" style="color:green;text-align:center;">EN STOCK</p>
-                                <button type="button" id="PacoBoton" class="btn btn-secondary" style="width:200px;display:block;margin-left: auto;margin-right: auto;">COMPRAR
-                               </button>
+                                <form>
+                                    <button type="button" class="btn btn-secondary addToCart" style="width:200px;display:block;margin-left: auto;margin-right: auto;">Añadir al carro</button>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -173,7 +184,8 @@
                 <img alt="Licencia de Creative Commons " style="border-width:0 " src="https://i.creativecommons.org/l/by/4.0/88x31.png " />
             </a>
             <br /> Este obra está bajo una <a rel="license " href="http://creativecommons.org/licenses/by/4.0/ " class="text-dark font-weight-bold">licencia de Creative Commons Reconocimiento 4.0 Internacional</a>.(GamesAreWelcome)
-            <div>Iconos diseñados por <a href=" https://www.flaticon.es/autores/pixel-perfect " title="Pixel perfect " class="text-dark font-weight-bold">Pixel perfect</a> from <a href="https://www.flaticon.es/ " title="Flaticon " class="text-dark font-weight-bold">www.flaticon.es</a></div>
+            <div>Iconos de redes sociales diseñados por <a href="https://www.freepik.com/" title="Freepik" class="text-dark font-weight-bold">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon" class="text-dark font-weight-bold">www.flaticon.es</a></div>
+            <div>Botón volver atrás diseñado por <a href="https://www.flaticon.es/autores/catalin-fertu" title="Catalin Fertu" class="text-dark font-weight-bold">Catalin Fertu</a> from <a href="https://www.flaticon.es/" title="Flaticon" class="text-dark font-weight-bold">www.flaticon.es</a>                | Botón carrito diseñado por <a href=" https://www.flaticon.es/autores/pixel-perfect " title="Pixel perfect " class="text-dark font-weight-bold">Pixel perfect</a> from <a href="https://www.flaticon.es/ " title="Flaticon " class="text-dark font-weight-bold">www.flaticon.es</a></div>
         </div>
         <!-- Copyright -->
     </footer>

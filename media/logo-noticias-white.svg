@@ -23,7 +23,7 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.65340399"
+     inkscape:zoom="0.63613009"
      inkscape:cx="603.36549"
      inkscape:cy="580.49312"
      inkscape:document-units="mm"
@@ -45,7 +45,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -86,21 +86,20 @@
          y="73.23185"
          style="stroke-width:0.264583" /></text>
     <path
-       style="fill:#000000;stroke:#000000;stroke-width:0.211094px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 6.7256178,211.85762 H 210.24713 l 35.51549,-27.689 H 50.553266 36.692324 c -10.021499,9.20605 -19.984439,18.45552 -29.9667062,27.689 z"
+       style="fill:#000000;stroke:#000000;stroke-width:0.268473px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 5.2110452,227.72082 H 208.08311 l 35.40215,-44.93116 H 48.898835 35.082125 c -9.98952,14.93873 -19.92066,29.94791 -29.8710798,44.93116 z"
        id="path844"
        sodipodi:nodetypes="cccccc" />
     <text
        xml:space="preserve"
-       style="font-size:32.4571px;line-height:1.25;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';letter-spacing:0px;fill:#ffffff;stroke-width:0.225396"
-       x="25.266512"
-       y="386.12769"
-       id="text848"
-       transform="scale(1.8873562,0.52984169)"><tspan
+       style="font-size:38.1px;line-height:1.25;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';letter-spacing:0px;fill:#ffffff;stroke-width:0.264583"
+       x="51.056808"
+       y="222.72665"
+       id="text861"><tspan
          sodipodi:role="line"
-         id="tspan846"
-         x="25.266512"
-         y="386.12769"
-         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold Italic';fill:#ffffff;stroke-width:0.225396">NEWS</tspan></text>
+         id="tspan859"
+         x="51.056808"
+         y="222.72665"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:52.9167px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold';fill:#ffffff;stroke-width:0.264583">NEWS</tspan></text>
   </g>
 </svg>
